@@ -1,8 +1,10 @@
 <?php
 
-use Isabellaalves21\Lembretemvc\Controllers\LembreteController;
+use Isabellaalves21\Lembretemvc\Core\Router;
 
-require_once __DIR__ . "./vendor/autoload.php";
+require_once __DIR__ . "/vendor/autoload.php";
 
 var_dump($_GET);
-$lembreteController = new LembreteController();
+
+$rota = new Router();
+//$lembreteController = new LembreteController();

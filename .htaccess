@@ -1,6 +1,6 @@
 #Impedir acesso aos arquivos
 
-Options: -indexes
+Options -indexes
 
 #Habilitando a reescrita de rota
 RewriteEngine On
